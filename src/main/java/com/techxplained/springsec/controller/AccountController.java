@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AccountController {
 
-//    @GetMapping("/myAccount")
-
+    @GetMapping("myaccount")
+    public String myAccount(){
+        return "Hello this is TechXplained.";
+    }
 }
